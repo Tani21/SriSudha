@@ -1,3 +1,4 @@
+import 'package:app/dashboard.dart';
 import 'package:app/signin_page.dart';
 import 'package:app/signup_page.dart';
 import 'package:flutter/material.dart';
@@ -26,6 +27,7 @@ class _MyAppState extends State<MyApp> {
       routes: {
     'signin': (context) =>  SigninPage(),
     'signup': (context) =>  SignupPage(),
+    'dashboard':(context) => Dashboard(),
   },
     );
   }
