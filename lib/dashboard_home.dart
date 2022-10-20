@@ -68,10 +68,11 @@ class _DashboardState extends State<Dashboard_home> {
                     SizedBox(
                       width: 5,
                     ),
-                    Icon(
-                      Icons.arrow_drop_down_circle_sharp,
+                    IconButton(
+                                onPressed: () {}, icon: Icon(Icons.arrow_drop_down_circle_sharp,
                       color: Colors.black,
                     ),
+                              ),
                   ],
                 )
               ],
@@ -153,7 +154,7 @@ class _DashboardState extends State<Dashboard_home> {
                 ),
                 Text(
                   'Explore our premium version where you get entire eco-system of out services in a single go.',
-                  style: TextStyle(color: Colors.white),
+                  style: TextStyle(color: Colors.white, fontSize: 17),
                 ),
                 SizedBox(
                   height: 15,
@@ -223,16 +224,18 @@ class _DashboardState extends State<Dashboard_home> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text('2 Meetings'), 
+                          Text('2 Meetings', style: TextStyle(fontSize: 17),), 
 
                           Row(
                             children: [
-                              Text('View Details'),
+                              Text('View Details', style: TextStyle(fontSize: 17),),
                               SizedBox(width: 4,),
-                              Icon(
-                      Icons.arrow_drop_down_circle_sharp,
+                              IconButton(
+                                onPressed: () {}, icon: Icon(Icons.arrow_drop_down_circle_sharp,
                       color: Colors.black,
                     ),
+                              ),
+
                             ],
                           )
                         ],

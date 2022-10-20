@@ -1,3 +1,4 @@
+import 'package:app/dashboard_calendar.dart';
 import 'package:app/dashboard_home.dart';
 import 'package:flutter/material.dart';
 import 'package:linear_step_indicator/linear_step_indicator.dart';
@@ -17,7 +18,7 @@ class _DashboardState extends State<Dashboard> {
   static const List<Widget> _widgetOptions = <Widget>[
     Dashboard_home(),
     Dashboard_home(),
-    Dashboard_home(),
+    Dashboard_calendar(),
     Dashboard_home(),
     Dashboard_home(),
   ];
