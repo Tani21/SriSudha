@@ -1,6 +1,9 @@
 import 'package:app/dashboard.dart';
 import 'package:app/dashboard_calendar.dart';
 import 'package:app/dashboard_home.dart';
+import 'package:app/dashboard_invoices.dart';
+import 'package:app/dashboard_paid_invoice.dart';
+import 'package:app/dashboard_unpaid_invoice.dart';
 import 'package:app/signin_page.dart';
 import 'package:app/signup_page.dart';
 import 'package:flutter/material.dart';
@@ -32,6 +35,9 @@ class _MyAppState extends State<MyApp> {
     'dashboard':(context) => Dashboard(),
     'dashboard_home':(context) => Dashboard_home(),
     'dashboard_calendar':(context) => Dashboard_calendar(),
+    'dashboard_invoices':(context) => Dashboard_invoices(),
+    'dashboard_unpaid_invoice':(context) => Dashboard_unpaid_invoice(),
+    'dashboard_paid_invoice':(context) => Dashboard_paid_invoice(),
   },
     );
   }

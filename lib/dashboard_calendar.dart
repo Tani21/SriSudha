@@ -36,16 +36,16 @@ CalendarController _controller = CalendarController();
       appBar: AppBar(
         backgroundColor: Color.fromARGB(227, 228, 138, 89),
         title: Text(
-          'Dashboard',
+          'Calendar',
           style: TextStyle(color: Colors.black, fontSize: 20),
         ),
-        actions: [
-          IconButton(
-            icon: Image.asset(
-                'assets/man_face.png'), // please change image according to authentication
-            onPressed: () {},
-          ),
-        ],
+        // actions: [
+        //   IconButton(
+        //     icon: Image.asset(
+        //         'assets/man_face.png'), // please change image according to authentication
+        //     onPressed: () {},
+        //   ),
+        // ],
       ),
 
       body: SingleChildScrollView(
