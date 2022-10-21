@@ -1,4 +1,6 @@
 import 'package:app/dashboard.dart';
+import 'package:app/dashboard_calendar.dart';
+import 'package:app/dashboard_home.dart';
 import 'package:app/signin_page.dart';
 import 'package:app/signup_page.dart';
 import 'package:flutter/material.dart';
@@ -28,6 +30,8 @@ class _MyAppState extends State<MyApp> {
     'signin': (context) =>  SigninPage(),
     'signup': (context) =>  SignupPage(),
     'dashboard':(context) => Dashboard(),
+    'dashboard_home':(context) => Dashboard_home(),
+    'dashboard_calendar':(context) => Dashboard_calendar(),
   },
     );
   }
